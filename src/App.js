@@ -1,5 +1,6 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
+import UploadSection from "./component/Upload/UploadSection";
 function App() {
   const [images, setImages] = useState([1,8,9]);
 
@@ -8,7 +9,7 @@ function App() {
   }, [images]);
   console.log(images)
 
-  return <div className="App"></div>;
+  return <UploadSection/>;
 }
 
 export default App;
