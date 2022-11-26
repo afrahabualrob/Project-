@@ -1,11 +1,10 @@
-import React from 'react'
+import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
-import Layout from './Layout';
-import ImagesList from '../ImagesList';
-import UploadSection from '../UploadSection';
+import Layout from "./Layout";
+import ImagesList from "../ImagesList";
+import UploadSection from "../UploadSection";
 
-
-const Routing= () => {
+const Routing = () => {
   return (
     <BrowserRouter>
       <Routes>
@@ -16,6 +15,6 @@ const Routing= () => {
       </Routes>
     </BrowserRouter>
   );
-}
+};
 
 export default Routing;

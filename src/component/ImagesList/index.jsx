@@ -9,7 +9,7 @@ const ImagesList = () => {
       cols={3}
       gap={8}
     >
-      {itemData.map((item) => (
+      {/* {itemData.map((item) => (
         <ImageListItem key={item.img}>
           <img
             src={`${item.img}?w=161&fit=crop&auto=format`}
@@ -18,7 +18,7 @@ const ImagesList = () => {
             loading="lazy"
           />
         </ImageListItem>
-      ))}
+      ))} */}
     </ImageList>
   );
 };
