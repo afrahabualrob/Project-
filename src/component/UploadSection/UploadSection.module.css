@@ -7,8 +7,12 @@ input[type="file"] {
     display: inline-block;
     padding: 6px 12px;
     cursor: pointer;
+
 }
 
+.wrapper{
+  margin-top:30px;
+}
 .filePreview {
   margin: 0 10px;
 }

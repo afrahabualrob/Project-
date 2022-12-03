@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Layout from "./Layout";
 import ImagesList from "../ImagesList";
-import UploadSection from "../UploadSection";
+import UploadSection from "../UploadSection/UploadSection";
 
 const Routing = () => {
   return (
@@ -10,7 +10,8 @@ const Routing = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<UploadSection />} />
-          <Route path="shop" element={<ImagesList />} />
+          <Route path="uploadImages" element={<UploadSection />} />
+          <Route path="images" element={<ImagesList />} />
         </Route>
       </Routes>
     </BrowserRouter>
