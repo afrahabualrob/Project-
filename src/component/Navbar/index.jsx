@@ -59,7 +59,7 @@ const Navbar = () => {
               <Link
                 className={styles.menuItem}
                 to={{
-                  pathname: "/uploadImages",
+                  pathname: "/",
                 }}
               >
                 <Button sx={{ my: 2, color: "#58768b", display: "block" }}>
