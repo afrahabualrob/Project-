@@ -10,7 +10,6 @@ const Routing = () => {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<UploadSection />} />
-          <Route path="uploadImages" element={<UploadSection />} />
           <Route path="images" element={<ImagesList />} />
         </Route>
       </Routes>
